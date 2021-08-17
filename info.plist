@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>0A2DEFFC-34BD-4736-9642-4A288B763E51</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>384D0087-AC16-49CB-A968-971B210BF875</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2BB74BDA-84C2-4B29-A179-0B51E7FA5E16</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>852592AD-8DBB-4BFD-9935-9A49ECC918B3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2DBEE597-D7A9-4405-906A-672BFF96E832</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FD2785CE-249D-425B-B092-CA285AB58A03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>384D0087-AC16-49CB-A968-971B210BF875</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D4254F49-188F-4F89-B933-A8E135609E2A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>66F5DED4-5DF9-456A-8E69-11FE7EB33AB4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2BB74BDA-84C2-4B29-A179-0B51E7FA5E16</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>852592AD-8DBB-4BFD-9935-9A49ECC918B3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2DBEE597-D7A9-4405-906A-672BFF96E832</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AD2DF15D-38AC-43CE-88A4-3E162E6527DB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D04986B4-990C-4FA6-8567-D42F683535EF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C2B8B761-D8D3-495A-8221-328623CCA0C0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A2DEFFC-34BD-4736-9642-4A288B763E51</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D04986B4-990C-4FA6-8567-D42F683535EF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FDD40322-CBBA-4A41-9386-27F94B210440</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D4254F49-188F-4F89-B933-A8E135609E2A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AD2DF15D-38AC-43CE-88A4-3E162E6527DB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FD2785CE-249D-425B-B092-CA285AB58A03</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A2DEFFC-34BD-4736-9642-4A288B763E51</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FDD40322-CBBA-4A41-9386-27F94B210440</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0B69D7FC-44D4-46C2-B1ED-581808C09A43</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>59F97819-5933-416E-99EA-A5B136EB47E2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E93EE7B2-43F6-420D-A11B-293A7DA24D34</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Nick Kong</string>
+	<key>description</key>
+	<string>Cite with markdown</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>EndNote-Craft Import</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>0 references imported. Please try again or review the workflow.</string>
+				<key>title</key>
+				<string>Import failed!</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>0B69D7FC-44D4-46C2-B1ED-581808C09A43</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/System/Volumes/Data/Applications/Craft.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>384D0087-AC16-49CB-A968-971B210BF875</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>k</string>
+				<key>keycode</key>
+				<integer>-1</integer>
+				<key>keymod</key>
+				<integer>1048576</integer>
+				<key>overridewithargument</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>0A2DEFFC-34BD-4736-9642-4A288B763E51</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>14</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>E</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.ThomsonResearchSoft.EndNote</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>66F5DED4-5DF9-456A-8E69-11FE7EB33AB4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import sys
+import os
+import webbrowser
+import time
+
+
+query = sys.argv[1]
+unformatted_orig = os.getenv('unformatted_orig')
+formatted_orig = os.getenv('formatted_orig')
+Space_ID = os.getenv('Space_ID')
+Folder_ID = os.getenv('Folder_ID')
+open_url_delay = float(os.getenv('open_url_delay'))
+Temporary_Citation_Delimiter_1 = os.getenv('Temporary_Citation_Delimiter_1')
+Temporary_Citation_Delimiter_2 = os.getenv('Temporary_Citation_Delimiter_2')
+
+#unformattededits
+unformatted1=unformatted_orig.replace(Temporary_Citation_Delimiter_1,"")
+unformatted2=unformatted1.replace(Temporary_Citation_Delimiter_2,"")
+unformatted3=unformatted2.replace("%","%23")
+
+#formattededits
+formatted1=formatted_orig.replace("%","%25")
+
+unformatted4=unformatted3.split(";")
+
+unformatted5=""
+i=0
+while i&lt;len(unformatted4):
+	if 'discussion' not in unformatted4[i]:
+		unformatted5 = unformatted5 + unformatted4[i] 
+		unformatted5 = unformatted5 + ';'
+	i = i + 1
+
+unformatted5 = unformatted5[:-1]
+
+
+unformatted=unformatted5.split(";")
+formatted=formatted1.splitlines()
+i=0
+
+#URLopening
+while i&lt;len(unformatted):
+	url = 'craftdocs://createdocument?spaceId={}&amp;title={}&amp;content={}&amp;folderId={}'.format(Space_ID,unformatted[i],formatted[i],Folder_ID)
+	webbrowser.open(url, new=0, autoraise=True)
+	i = i + 1
+	time.sleep(open_url_delay)
+
+sys.stdout.write(str(i))</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D04986B4-990C-4FA6-8567-D42F683535EF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>59F97819-5933-416E-99EA-A5B136EB47E2</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>FDD40322-CBBA-4A41-9386-27F94B210440</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>unformatted_orig</key>
+					<string>{clipboard}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>FD2785CE-249D-425B-B092-CA285AB58A03</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>Folder_ID</key>
+					<string>21EA711D-1BB8-4977-BA8C-ED1546F14B04</string>
+					<key>Space_ID</key>
+					<string>b9e75d85-d7c2-ef68-0c22-8b3b85ff1bbe</string>
+					<key>Temporary_Citation_Delimiter_1</key>
+					<string>{</string>
+					<key>Temporary_Citation_Delimiter_2</key>
+					<string>}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2BB74BDA-84C2-4B29-A179-0B51E7FA5E16</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>{var:format_copy_delay}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>D4254F49-188F-4F89-B933-A8E135609E2A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>formatted_orig</key>
+					<string>{clipboard}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>AD2DF15D-38AC-43CE-88A4-3E162E6527DB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>format_copy_delay</key>
+					<string>0.2</string>
+					<key>open_url_delay</key>
+					<string>0.6</string>
+					<key>unformat_copy_delay</key>
+					<string>0.1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>852592AD-8DBB-4BFD-9935-9A49ECC918B3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>{var:unformat_copy_delay}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>2DBEE597-D7A9-4405-906A-672BFF96E832</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Number of reference(s) imported: {query}</string>
+				<key>title</key>
+				<string>Import complete!</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>E93EE7B2-43F6-420D-A11B-293A7DA24D34</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>readonly remote_info_plist="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/${alfred_workflow_name}/source/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/${alfred_workflow_name}/${alfred_workflow_name}.alfredworkflow"
+readonly workflow_type='workflow'
+readonly frequency_check='7'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  readonly local notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/MacOS/applet" "${1}" "${alfred_workflow_name}" 'A new version is availale'
+    return
+  fi
+
+  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${workflow_type}" =~ ^(workflow|page)$ ]] || abort "'workflow_type' (${workflow_type}) needs to be one of 'workflow' or 'page'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" != "${remote_version}" ]]; then
+    if [[ "${workflow_type}" == 'page' ]]; then
+      notification 'Opening download page…'
+      open "${workflow_url}"
+    else
+      if url_exists "${workflow_url}"; then
+        notification 'Downloading and installing…'
+        curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${workflow_url}"
+        open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+      else
+        abort "'workflow_url' (${workflow_url}) appears to not be reachable."
+      fi # url_exists
+    fi # workflow_type
+  else
+    touch "${local_info_plist}" # Reset timer by touching local file
+  fi # diff
+fi #find</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C2B8B761-D8D3-495A-8221-328623CCA0C0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Hey everyone! Welcome to my very first workflow. Hope you like it and would love to hear your feedback.
+
+This workflow allows writing in-text citations in a markdown-esque fashion which can be converted into proper citations using EndNote’s Cite While You Write in Microsoft Word. There’s a bit of setup (and reading) required but I believe it’s worth it.
+
+Users of Obsidian and other back-linking software with URL schemes could modify this to benefit them too (“See How It Works” for more information.)
+
+# Required (Must be configured for use) (Red items in workflow)
+
+- CRAFT SPACE ID: Found in the Craft deeplink. Please copy this into the workflow.
+- File-&gt;Copy Formatted Keyboard Shortcut: Default should be Cmd+K. If not, change accordingly in the workflow.
+- User-assigned hotkey
+- Software: EndNote, Craft, Microsoft Word
+
+Additional:
+
+
+- Find Reference Updates: This should be done before running the workflow. The workflow splits  formatted citations objects by new lines and may fail if references are not updated.
+- Temporary citation delimiters (EndNote Preferences-&gt;Temporary Citations): Default is { } but some may choose something different like [ ]. Please match these accordingly in the workflow if changed.
+
+# Optional (but helpful)
+
+- Craft Folder ID (optional - leave blank if not required): Found in the URL of the Craft Web Editor. Helpful for creating citation documents directly into your folder of choice.
+- Attached EndNote referencing style (adapted version of Chicago 17th Footnote): If you would like to have all the important details including authors, title, doi link, and abstract, I’ve uploaded a EndNote referencing style which I use. I wrote APD (Academic Paper Reference - v fancy) into the reference to help searching for them in Craft but that can obviously be removed.
+- Temporary citation page numbers (EndNote Preferences-&gt;Use field instead of record number-&gt;Pages): The record number will be used as default. This will work in the workflow but may cause issues if your EndNote library changes in the future. I recommend pages for longevity.
+- Delay timers: These can be adjusted in the workflow. I suggest increasing the delay if there are errors or keeping them the same since shorter times can lead to not all references being created. 
+
+# How it works
+
+
+Select your references (multiple allowed) in EndNote and press the non-global hotkey (user-assigned in workflow) to copy the citations to the clipboard (these are passed as variables immediately so the clipboard manager option is not required.) Documents are created for each reference with the temporary/unformatted citation as the title and formatted citation as the body by using the Craft URL scheme “[craftdocs://createdocument?spaceId=&amp;title=&amp;content=&amp;folderId=](craftdocs://createdocument?spaceId=&amp;title=&amp;content=&amp;folderId=)“. When writing, use the @ symbol to search for the desired references which will be autofilled for you. Export to Microsoft Word, select all turn, and remove hyperlinks (Cmd + Shift + F9) then text on Instant Formatting in EndNote Cite While You Write. Voila! You have your references.
+
+I recently tested this for a writing task and found it really helpful in keeping track of all my references since there is less friction, it is easier to remove or edit in-text citations, and the citations act as links to your notes and information.</string>
+	<key>uidata</key>
+	<dict>
+		<key>0A2DEFFC-34BD-4736-9642-4A288B763E51</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>PLEASE CHECK: Must be the keyboard shortcut for Edit-&gt;Copy Formatted in EndNote</string>
+			<key>xpos</key>
+			<integer>590</integer>
+			<key>ypos</key>
+			<integer>110</integer>
+		</dict>
+		<key>0B69D7FC-44D4-46C2-B1ED-581808C09A43</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1360</integer>
+			<key>ypos</key>
+			<integer>55</integer>
+		</dict>
+		<key>2BB74BDA-84C2-4B29-A179-0B51E7FA5E16</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>USER INPUT REQUIRED:
+
+Insert Space ID here (in Craft deeplink)
+
+OPTIONAL INPUTS:
+
+Folder ID (leave blank if not required): in Web Editor URL
+
+Temporary citation delimiters (default { }): leave untouched unless settings do not match (Preferences-&gt;Tempoary Citations)*
+
+*Tip: Temporary Citations-&gt;"Use Field instead of Record Number"-&gt;Pages in EndNote for longevity</string>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>2DBEE597-D7A9-4405-906A-672BFF96E832</key>
+		<dict>
+			<key>xpos</key>
+			<integer>455</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>384D0087-AC16-49CB-A968-971B210BF875</key>
+		<dict>
+			<key>xpos</key>
+			<integer>740</integer>
+			<key>ypos</key>
+			<integer>110</integer>
+		</dict>
+		<key>66F5DED4-5DF9-456A-8E69-11FE7EB33AB4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>110</integer>
+		</dict>
+		<key>852592AD-8DBB-4BFD-9935-9A49ECC918B3</key>
+		<dict>
+			<key>note</key>
+			<string>Edit delay times here. Shorter times may result in failure.</string>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>AD2DF15D-38AC-43CE-88A4-3E162E6527DB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>970</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>C2B8B761-D8D3-495A-8221-328623CCA0C0</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>190</integer>
+			<key>ypos</key>
+			<integer>760</integer>
+		</dict>
+		<key>D04986B4-990C-4FA6-8567-D42F683535EF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1050</integer>
+			<key>ypos</key>
+			<integer>110</integer>
+		</dict>
+		<key>D4254F49-188F-4F89-B933-A8E135609E2A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>900</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>E93EE7B2-43F6-420D-A11B-293A7DA24D34</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1355</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>FD2785CE-249D-425B-B092-CA285AB58A03</key>
+		<dict>
+			<key>xpos</key>
+			<integer>530</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>FDD40322-CBBA-4A41-9386-27F94B210440</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1235</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
