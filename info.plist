@@ -526,9 +526,9 @@ sys.stdout.write(str(i))</string>
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>readonly remote_info_plist="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/${alfred_workflow_name}/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/${alfred_workflow_name}/${alfred_workflow_name}.alfredworkflow"
-readonly workflow_type='workflow'
+				<string>readonly remote_info_plist="https://github.com/nanobot20/endnote-craft-workflow/raw/main/info.plist"
+readonly workflow_url="https://github.com/nanobot20/endnote-craft-workflow/raw/main/EndNote-Craft-Import.alfredworkflow"
+readonly workflow_type='direct'
 readonly frequency_check='7'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING
@@ -763,6 +763,8 @@ Temporary citation delimiters (default { }): leave untouched unless settings do 
 			<integer>130</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
