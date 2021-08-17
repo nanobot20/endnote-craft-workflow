@@ -184,7 +184,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>EndNote-Craft Import</string>
+	<string>EndNote-Craft-Import</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -411,9 +411,9 @@ sys.stdout.write(str(i))</string>
 				<key>variables</key>
 				<dict>
 					<key>Folder_ID</key>
-					<string>21EA711D-1BB8-4977-BA8C-ED1546F14B04</string>
+					<string></string>
 					<key>Space_ID</key>
-					<string>b9e75d85-d7c2-ef68-0c22-8b3b85ff1bbe</string>
+					<string></string>
 					<key>Temporary_Citation_Delimiter_1</key>
 					<string>{</string>
 					<key>Temporary_Citation_Delimiter_2</key>
