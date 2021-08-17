@@ -1,8 +1,15 @@
+![Screen Shot 2021-08-18 at 07 57 31](https://user-images.githubusercontent.com/89093232/129806358-e424aa98-f75e-4c1a-884d-f0d5b14d8870.png)
+![Screen Shot 2021-08-18 at 07 58 43](https://user-images.githubusercontent.com/89093232/129806378-7406a4e3-ebe8-4903-acce-f1fe3a865780.png)
 Hey everyone! Welcome to my very first workflow. Hope you like it and would love to hear your feedback.
 
 This workflow allows writing in-text citations in a markdown-esque fashion which can be converted into proper citations using EndNote’s Cite While You Write in Microsoft Word. There’s a bit of setup (and reading) required but I believe it’s worth it.
 
 Users of Obsidian and other back-linking software with URL schemes could modify this to benefit them too (“See How It Works” for more information.)
+
+![Document Page](https://user-images.githubusercontent.com/89093232/129806573-799b6357-ccb3-4e91-87f2-98808959c8c8.png)
+
+![In-Text Citation](https://user-images.githubusercontent.com/89093232/129806584-8d732927-1f50-4574-81c8-a52dc08a2a38.png)
+
 
 # Required (Must be configured for use) (Red items in workflow)
 
