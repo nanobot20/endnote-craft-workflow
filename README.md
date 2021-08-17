@@ -1,5 +1,5 @@
 # endnote-craft-workflow
-Reference in markdown
+Cite in markdown
 
 Hey everyone! Welcome to my very first workflow. Hope you like it and would love to hear your feedback.
 
