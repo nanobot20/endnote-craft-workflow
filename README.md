@@ -23,7 +23,7 @@ Additional:
 # Optional (but helpful)
 
 - Craft Folder ID (optional - leave blank if not required): Found in the URL of the Craft Web Editor. Helpful for creating citation documents directly into your folder of choice.
-- Attached EndNote referencing style (adapted version of Chicago 17th Footnote): If you would like to have all the important details including authors, title, doi link, and abstract, I’ve uploaded a EndNote referencing style which I use.
+- Attached EndNote referencing style (adapted version of Chicago 17th Footnote): If you would like to have all the important details including authors, title, doi link, and abstract, I’ve uploaded a EndNote referencing style which I use. I wrote APD (Academic Paper Reference - v fancy) into the reference to help searching for them in Craft but that can obviously be removed.
 - Temporary citation page numbers (EndNote Preferences->Use field instead of record number->Pages): The record number will be used as default. This will work in the workflow but may cause issues if your EndNote library changes in the future. I recommend pages for longevity.
 - Delay timers: These can be adjusted in the workflow. I suggest increasing the delay if there are errors or keeping them the same since shorter times can lead to not all references being created. 
 
