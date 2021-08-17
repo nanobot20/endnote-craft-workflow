@@ -616,6 +616,7 @@ Users of Obsidian and other back-linking software with URL schemes could modify 
 
 - CRAFT SPACE ID: Found in the Craft deeplink. Please copy this into the workflow.
 - File-&gt;Copy Formatted Keyboard Shortcut: Default should be Cmd+K. If not, change accordingly in the workflow.
+- References must be in the form of {ref1} or {ref1;ref2;ref3} , where { } are temporary citation delimiters***
 - User-assigned hotkey
 - Software: EndNote, Craft, Microsoft Word
 
@@ -623,7 +624,7 @@ Additional:
 
 
 - Find Reference Updates: This should be done before running the workflow. The workflow splits  formatted citations objects by new lines and may fail if references are not updated.
-- Temporary citation delimiters (EndNote Preferences-&gt;Temporary Citations): Default is { } but some may choose something different like [ ]. Please match these accordingly in the workflow if changed.
+- ***Temporary citation delimiters (EndNote Preferences-&gt;Temporary Citations): Default is { } but some may choose something different like [ ]. Please match these accordingly in the workflow if changed.
 
 # Optional (but helpful)
 
