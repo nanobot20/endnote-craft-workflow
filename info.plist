@@ -180,7 +180,7 @@
 	<key>createdby</key>
 	<string>Nick Kong</string>
 	<key>description</key>
-	<string>Cite with markdown</string>
+	<string>A Crafty method for referencing</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -228,27 +228,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>count</key>
-				<integer>1</integer>
-				<key>keychar</key>
-				<string>k</string>
-				<key>keycode</key>
-				<integer>-1</integer>
-				<key>keymod</key>
-				<integer>1048576</integer>
-				<key>overridewithargument</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.dispatchkeycombo</string>
-			<key>uid</key>
-			<string>0A2DEFFC-34BD-4736-9642-4A288B763E51</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -258,11 +237,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>14</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1179648</integer>
+				<integer>0</integer>
 				<key>hotstring</key>
-				<string>E</string>
+				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -280,6 +259,27 @@
 			<string>66F5DED4-5DF9-456A-8E69-11FE7EB33AB4</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>k</string>
+				<key>keycode</key>
+				<integer>-1</integer>
+				<key>keymod</key>
+				<integer>1048576</integer>
+				<key>overridewithargument</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>0A2DEFFC-34BD-4736-9642-4A288B763E51</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -390,14 +390,64 @@ sys.stdout.write(str(i))</string>
 				<true/>
 				<key>variables</key>
 				<dict>
-					<key>unformatted_orig</key>
+					<key>format_copy_delay</key>
+					<string>0.2</string>
+					<key>open_url_delay</key>
+					<string>0.6</string>
+					<key>unformat_copy_delay</key>
+					<string>0.1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>852592AD-8DBB-4BFD-9935-9A49ECC918B3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>formatted_orig</key>
 					<string>{clipboard}</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>FD2785CE-249D-425B-B092-CA285AB58A03</string>
+			<string>AD2DF15D-38AC-43CE-88A4-3E162E6527DB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>{var:unformat_copy_delay}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>2DBEE597-D7A9-4405-906A-672BFF96E832</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>{var:format_copy_delay}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>D4254F49-188F-4F89-B933-A8E135609E2A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -430,70 +480,20 @@ sys.stdout.write(str(i))</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>seconds</key>
-				<string>{var:format_copy_delay}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.delay</string>
-			<key>uid</key>
-			<string>D4254F49-188F-4F89-B933-A8E135609E2A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string>{query}</string>
 				<key>passthroughargument</key>
 				<true/>
 				<key>variables</key>
 				<dict>
-					<key>formatted_orig</key>
+					<key>unformatted_orig</key>
 					<string>{clipboard}</string>
 				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>AD2DF15D-38AC-43CE-88A4-3E162E6527DB</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<true/>
-				<key>variables</key>
-				<dict>
-					<key>format_copy_delay</key>
-					<string>0.2</string>
-					<key>open_url_delay</key>
-					<string>0.6</string>
-					<key>unformat_copy_delay</key>
-					<string>0.1</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>852592AD-8DBB-4BFD-9935-9A49ECC918B3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>seconds</key>
-				<string>{var:unformat_copy_delay}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.delay</string>
-			<key>uid</key>
-			<string>2DBEE597-D7A9-4405-906A-672BFF96E832</string>
+			<string>FD2785CE-249D-425B-B092-CA285AB58A03</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -529,7 +529,7 @@ sys.stdout.write(str(i))</string>
 				<string>readonly remote_info_plist="https://github.com/nanobot20/endnote-craft-workflow/raw/main/info.plist"
 readonly workflow_url="https://github.com/nanobot20/endnote-craft-workflow/raw/main/EndNote-Craft-Import.alfredworkflow"
 readonly workflow_type='direct'
-readonly frequency_check='7'
+readonly frequency_check='4'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED UNLESS YOU KNOW WHAT YOU ARE DOING
 function abort {
@@ -606,39 +606,58 @@ fi #find</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Hey everyone! Welcome to my very first workflow. Hope you like it and would love to hear your feedback.
+	<string>Hey everyone! Welcome to my very first workflow. I hope it helps the writing experience and am open to any suggestions for improvement.
 
-This workflow allows writing in-text citations in a markdown-esque fashion which can be converted into proper citations using EndNote’s Cite While You Write in Microsoft Word. There’s a bit of setup (and reading) required but I believe it’s worth it.
+Import your EndNote citations into Craft for markdown-esque referencing which can be easily and properly formatted with EndNote’s Cite While You Write in Microsoft Word. Users of Obsidian and other back-linking software with URL schemes could modify this to benefit them too (See “Usage” for more information.)
 
-Users of Obsidian and other back-linking software with URL schemes could modify this to benefit them too (“See How It Works” for more information.)
-
-# Required (Must be configured for use) (Red items in workflow)
-
-- CRAFT SPACE ID: Found in the Craft deeplink. Please copy this into the workflow.
-- File-&gt;Copy Formatted Keyboard Shortcut: Default should be Cmd+K. If not, change accordingly in the workflow.
-- References must be in the form of {ref1} or {ref1;ref2;ref3} , where { } are temporary citation delimiters***
-- User-assigned hotkey
-- Software: EndNote, Craft, Microsoft Word
-
-Additional:
+# Install
 
 
-- Find Reference Updates: This should be done before running the workflow. The workflow splits  formatted citations objects by new lines and may fail if references are not updated.
-- ***Temporary citation delimiters (EndNote Preferences-&gt;Temporary Citations): Default is { } but some may choose something different like [ ]. Please match these accordingly in the workflow if changed.
+Download the Alfred Workflow file and input your Space ID (required) and Folder ID (optional). Found within the Craft deeplink and Web Editor URL.
 
-# Optional (but helpful)
+Assign non-global hotkey to trigger the workflow.
 
-- Craft Folder ID (optional - leave blank if not required): Found in the URL of the Craft Web Editor. Helpful for creating citation documents directly into your folder of choice.
-- Attached EndNote referencing style (adapted version of Chicago 17th Footnote): If you would like to have all the important details including authors, title, doi link, and abstract, I’ve uploaded a EndNote referencing style which I use. I wrote APD (Academic Paper Reference - v fancy) into the reference to help searching for them in Craft but that can obviously be removed.
-- Temporary citation page numbers (EndNote Preferences-&gt;Use field instead of record number-&gt;Pages): The record number will be used as default. This will work in the workflow but may cause issues if your EndNote library changes in the future. I recommend pages for longevity.
-- Delay timers: These can be adjusted in the workflow. I suggest increasing the delay if there are errors or keeping them the same since shorter times can lead to not all references being created. 
-
-# How it works
+In EndNote, confirm the following settings or change in Alfred or EndNote accordingly. 
 
 
-Select your references (multiple allowed) in EndNote and press the non-global hotkey (user-assigned in workflow) to copy the citations to the clipboard (these are passed as variables immediately so the clipboard manager option is not required.) Documents are created for each reference with the temporary/unformatted citation as the title and formatted citation as the body by using the Craft URL scheme “[craftdocs://createdocument?spaceId=&amp;title=&amp;content=&amp;folderId=](craftdocs://createdocument?spaceId=&amp;title=&amp;content=&amp;folderId=)“. When writing, use the @ symbol to search for the desired references which will be autofilled for you. References should be in the form {ref1} or {ref1;ref2;ref3} . Export to Microsoft Word, select all turn, and remove hyperlinks (Cmd + Shift + F9) then text on Instant Formatting in EndNote Cite While You Write. Voila! You have your references.
+- Cmd+K = Edit-&gt;Copy Formatted. 
+- Temporary citation delimiter (in EndNote Preferences-&gt;Temporary Citations) matches the workflow settings (default { } )
+- Recommended (optional): Set EndNote Preferences-&gt;Use field instead of record number-&gt;Pages. The default is record number which will work but may not age well if you change your EndNote library in the future.
+- Citation format: This workflow will import your selected referencing style as content. I’ve uploaded a referencing style (modified version of Chicago 17th Footnote) which includes the author names, titles, doi link, abstract, and other details if available and helps me keeping track of all my notes.
 
-I recently tested this for a writing task and found it really helpful in keeping track of all my references since there is less friction, it is easier to remove or edit in-text citations, and the citations act as links to your notes and information.</string>
+Software:
+
+
+- EndNote
+- Craft
+- Word (for export)
+
+# Usage
+
+
+## Import
+
+1. Select references (as many as desired.) Recommended to Find Reference Updates prior to next step.
+2. Trigger hotkey
+3. Sit back as citations are imported. Temporary/unformatted citations and formatted citations are copied to clipboard (clipboard manager is not required as variables are passed immediately.)  Documents are created for each reference with the temporary/unformatted citation as the title and formatted citation as the body by using the Craft URL scheme “[craftdocs://createdocument?spaceId=&amp;title=&amp;content=&amp;folderId=](craftdocs://createdocument?spaceId=&amp;title=&amp;content=&amp;folderId=)“.
+
+## Markdown Citations
+
+
+Use the reference format {ref} or {ref1;ref2;ref3;…;refx} where { } are your temporary citation delimiters:
+
+
+1. Type {@
+2. Reference away
+
+## EndNote Cite While You Write
+
+1. Export to Word
+2. Select all text (Cmd+A)
+3. Remove hyperlinks (Cmd+Shift+F9)
+4. Turn on instant formatting in the EndNote Cite While You Write ribbon
+
+Viola! A Crafty method for citations.</string>
 	<key>uidata</key>
 	<dict>
 		<key>0A2DEFFC-34BD-4736-9642-4A288B763E51</key>
@@ -646,7 +665,7 @@ I recently tested this for a writing task and found it really helpful in keeping
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>note</key>
-			<string>PLEASE CHECK: Must be the keyboard shortcut for Edit-&gt;Copy Formatted in EndNote</string>
+			<string>MUST MATCH keyboard shortcut for Edit-&gt;Copy Formatted in EndNote</string>
 			<key>xpos</key>
 			<integer>590</integer>
 			<key>ypos</key>
@@ -666,15 +685,13 @@ I recently tested this for a writing task and found it really helpful in keeping
 			<key>note</key>
 			<string>USER INPUT REQUIRED:
 
-Insert Space ID here (in Craft deeplink)
+- Space ID (from Craft deeplink)
+- Temporary citation delimiters (from EndNote settings. Default is { } )
 
-OPTIONAL INPUTS:
+Optional:
+- Folder ID (leave blank if not required) (found in Craft Web Editor URL)
 
-Folder ID (leave blank if not required): in Web Editor URL
-
-Temporary citation delimiters (default { }): leave untouched unless settings do not match (Preferences-&gt;Tempoary Citations)*
-
-*Tip: Temporary Citations-&gt;"Use Field instead of Record Number"-&gt;Pages in EndNote for longevity</string>
+*Tip: EndNote Preferences-&gt;Temporary Citations-&gt;"Use Field instead of Record Number"-&gt;Pages in EndNote for longevity</string>
 			<key>xpos</key>
 			<integer>220</integer>
 			<key>ypos</key>
@@ -704,7 +721,7 @@ Temporary citation delimiters (default { }): leave untouched unless settings do 
 		<key>852592AD-8DBB-4BFD-9935-9A49ECC918B3</key>
 		<dict>
 			<key>note</key>
-			<string>Edit delay times here. Shorter times may result in failure.</string>
+			<string>Option to edit delay times here. Shorter times may result in failure.</string>
 			<key>xpos</key>
 			<integer>350</integer>
 			<key>ypos</key>
@@ -767,7 +784,7 @@ Temporary citation delimiters (default { }): leave untouched unless settings do 
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
