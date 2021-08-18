@@ -1,38 +1,60 @@
-Hey everyone! Welcome to my very first workflow. Hope you like it and would love to hear your feedback.
+Hey everyone! Welcome to my very first workflow. I hope it helps the writing experience and am open to any suggestions for improvement.
 
-This workflow allows writing in-text citations in a markdown-esque fashion which can be converted into proper citations using EndNote’s Cite While You Write in Microsoft Word. There’s a bit of setup (and reading) required but I believe it’s worth it.
+Import your EndNote citations into Craft for markdown-esque referencing which can be easily and properly formatted with EndNote’s Cite While You Write in Microsoft Word. Users of Obsidian and other back-linking software with URL schemes could modify this to benefit them too (See “Usage” for more information.)
 
-Users of Obsidian and other back-linking software with URL schemes could modify this to benefit them too (“See How It Works” for more information.)
-
-
-# Required (Must be configured for use) (Red items in workflow)
-
-- CRAFT SPACE ID: Found in the Craft deeplink. Please copy this into the workflow.
-- File->Copy Formatted Keyboard Shortcut: Default should be Cmd+K. If not, change accordingly in the workflow.
-- References must be in the form of {ref1} or {ref1;ref2;ref3} , where { } are temporary citation delimiters***
-- User-assigned hotkey
-- Software: EndNote, Craft, Microsoft Word
-
-Additional:
+# Install
 
 
-- Find Reference Updates: This should be done before running the workflow. The workflow splits  formatted citations objects by new lines and may fail if references are not updated.
-- ***Temporary citation delimiters (EndNote Preferences->Temporary Citations): Default is { } but some may choose something different like [ ]. Please match these accordingly in the workflow if changed.
+Download the Alfred Workflow file and input your Space ID (required) and Folder ID (optional). Found within the Craft deeplink and Web Editor URL.
 
-# Optional (but helpful)
+Assign non-global hotkey to trigger the workflow.
 
-- Craft Folder ID (optional - leave blank if not required): Found in the URL of the Craft Web Editor. Helpful for creating citation documents directly into your folder of choice.
-- Attached EndNote referencing style (adapted version of Chicago 17th Footnote): If you would like to have all the important details including authors, title, doi link, and abstract, I’ve uploaded a EndNote referencing style which I use. I wrote APD (Academic Paper Reference - v fancy) into the reference to help searching for them in Craft but that can obviously be removed.
-- Temporary citation page numbers (EndNote Preferences->Use field instead of record number->Pages): The record number will be used as default. This will work in the workflow but may cause issues if your EndNote library changes in the future. I recommend pages for longevity.
-- Delay timers: These can be adjusted in the workflow. I suggest increasing the delay if there are errors or keeping them the same since shorter times can lead to not all references being created. 
-
-![In-Text Citation](https://user-images.githubusercontent.com/89093232/129806584-8d732927-1f50-4574-81c8-a52dc08a2a38.png)
-
-![Document Page](https://user-images.githubusercontent.com/89093232/129806573-799b6357-ccb3-4e91-87f2-98808959c8c8.png)
-
-# How it works
+In EndNote, confirm the following settings or change in Alfred or EndNote accordingly. 
 
 
-Select your references (multiple allowed) in EndNote and press the non-global hotkey (user-assigned in workflow) to copy the citations to the clipboard (these are passed as variables immediately so the clipboard manager option is not required.) Documents are created for each reference with the temporary/unformatted citation as the title and formatted citation as the body by using the Craft URL scheme “[craftdocs://createdocument?spaceId=&title=&content=&folderId=](craftdocs://createdocument?spaceId=&title=&content=&folderId=)“. When writing, use the @ symbol to search for the desired references which will be autofilled for you. References should be in the form {ref1} or {ref1;ref2;ref3} . Export to Microsoft Word, select all turn, and remove hyperlinks (Cmd + Shift + F9) then text on Instant Formatting in EndNote Cite While You Write. Voila! You have your references.
+- Cmd+K = Edit->Copy Formatted. 
+- Temporary citation delimiter (in EndNote Preferences->Temporary Citations) matches the workflow settings (default { } )
+- Recommended (optional): Set EndNote Preferences->Use field instead of record number->Pages. The default is record number which will work but may not age well if you change your EndNote library in the future.
+- Citation format: This workflow will import your selected referencing style as content. I’ve uploaded a referencing style (modified version of Chicago 17th Footnote) which includes the author names, titles, doi link, abstract, and other details if available and helps me keeping track of all my notes.
 
-I recently tested this for a writing task and found it really helpful in keeping track of all my references since there is less friction, it is easier to remove or edit in-text citations, and the citations act as links to your notes and information.
+Software:
+
+
+- EndNote
+- Craft
+- Word (for export)
+
+# Usage
+
+
+## Import
+
+1. Select references (as many as desired.) Recommended to Find Reference Updates prior to next step.
+2. Trigger hotkey
+3. Sit back as citations are imported. Temporary/unformatted citations and formatted citations are copied to clipboard (clipboard manager is not required as variables are passed immediately.)  Documents are created for each reference with the temporary/unformatted citation as the title and formatted citation as the body by using the Craft URL scheme “[craftdocs://createdocument?spaceId=&title=&content=&folderId=](craftdocs://createdocument?spaceId=&title=&content=&folderId=)“.
+
+![Reference Import](https://user-images.githubusercontent.com/89093232/129854668-1bf1ad42-fe7a-40ef-a25a-7689402597da.png)
+
+
+## Markdown Citations
+
+
+Use the reference format {ref} or {ref1;ref2;ref3;…;refx} where { } are your temporary citation delimiters:
+
+
+1. Type {@
+2. Reference away
+
+![In-Text Citations](https://user-images.githubusercontent.com/89093232/129854647-d73a158b-3132-42be-b261-5488a22916e9.png)
+
+
+## EndNote Cite While You Write
+
+1. Export to Word
+2. Select all text (Cmd+A)
+3. Remove hyperlinks (Cmd+Shift+F9)
+4. Turn on instant formatting in the EndNote Cite While You Write ribbon
+
+![Formatting in Word](https://user-images.githubusercontent.com/89093232/129854685-fd3bee81-a4fa-4a3e-adc2-3e15a976c39b.png)
+
+Viola! A Crafty method for referencing!
