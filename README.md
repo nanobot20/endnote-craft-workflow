@@ -1,4 +1,4 @@
-Hey everyone! Welcome to my very first workflow. I hope it helps the writing experience and am open to any suggestions for improvement.
+Hey everyone! Welcome to my very first workflow (https://github.com/nanobot20/endnote-craft-workflow/raw/main/EndNote-Craft-Import.alfredworkflow). I hope it helps the writing experience and am open to any suggestions for improvement.
 
 Import your EndNote citations into Craft for markdown-esque referencing which can be easily and properly formatted with EndNote’s Cite While You Write in Microsoft Word. Users of Obsidian and other back-linking software with URL schemes could modify this to benefit them too (See “Usage” for more information.)
 
